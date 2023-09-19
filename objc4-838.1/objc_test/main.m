@@ -17,9 +17,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        __unused obj = [Person alloc];
-        
-        NSLog(@"Hello, World!");
+        __unused id obj = [Person alloc];
     }
     return 0;
 }
